@@ -72,6 +72,10 @@ body {
 .section3 {
     background-color: #f4f4fd;
 }
+
+.section-li{
+    background-color: #FFFFFF
+}
 .section-title2 {
     font-weight: 500;
     font-size: 36px;
