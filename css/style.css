@@ -8,8 +8,11 @@
         color: #4d5ae5;
     }
 
+.logo-span .inner-span{
+    color: #2e2f42;
+}
+
 .link-style{
-    .link-style {
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
@@ -23,7 +26,11 @@
     
         .link-style:focus {
             color: #404bbf;
-        }
+}
+
+
+.contact-info {
+    font-style: normal;
 }
 
 .contact-link {
