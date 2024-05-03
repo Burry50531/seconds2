@@ -61,10 +61,6 @@ body {
         background-color: #2e2f42;
     }
 
-.section3{
-    background-color:#f4f4fd;
-}
-
 .section-title {
     font-size: 56px;
     line-height: 1.07;
@@ -73,18 +69,25 @@ body {
     color: #ffffff;
 }
 
+.section3 {
+    background-color: #f4f4fd;
+}
 .section-title2 {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
 .list-heading {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
