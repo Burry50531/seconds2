@@ -194,7 +194,6 @@ body {
 
 .section4-list {
     list-style: none;
-    padding: 0;
 }
 
 .section4-heading-h3 {
@@ -245,7 +244,6 @@ body {
 
 .footer {
     background-color: #2e2f42;
-    padding: 20px;
     color: #f4f4fd;
 }
 
