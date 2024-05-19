@@ -198,7 +198,7 @@ body {
 }
 
 .container {
-    max-width: 120px 0;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -211,26 +211,19 @@ body {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 .section-item {
     width: calc((100% - 48px) / 3);
-    float: left;
-    padding: 0;
-    margin: 0;
 }
 
 .app-container {
     border: 1px solid #e7e9fc;
     border-top: none;
-    padding: 16px;
+    padding: 32px 16px;
 }
 
 .app-title {
-    font-size: 24px;
     margin-bottom: 8px;
 }
 
