@@ -268,42 +268,40 @@ body {
 }
 
 .header {
-    min-height: 3px;
-    font-family: 'Arial', sans-serif;
-    text-transform: lowercase;
-}
-
-.header {
     border-bottom: 1px solid #e7e9fc;
-}
-
-.header .container {
-    min-height: 3px;
-    font-family: 'Arial', sans-serif;
-    text-transform: lowercase;
-}
-
-.header .container:first-child {
-    display: flex;
 }
 
 .container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    display: flex;
 }
 
-nav {
-    min-height: 3px;
-    font-family: 'Arial', sans-serif;
-    text-transform: lowercase;
+.nav {
     display: flex;
     align-items: center;
 }
 
-.nav .logo {
-    min-height: 3px;
-    font-family: 'Arial', sans-serif;
-    text-transform: lowercase;
+.logo-link {
     margin-right: 76px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-item {
+    padding: 24px 0;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+}
+
+.contact-list {
+    display: flex;
+    gap: 40px;
 }
