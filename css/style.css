@@ -192,38 +192,39 @@ body {
 }
 
 
-
-
-
-
-
-.sectiona-heading {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
+.container {
+    padding: 120px 0;
 }
 
-.sectionb-list {
-    list-style: none;
+.section-title {
+    margin-bottom: 72px;
 }
 
-.sectionq-heading-h {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+.section-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
-.sectionw-paragraph {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.list-item {
+    width: calc((100% - 48px) / 3);
 }
+
+.app-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.app-title {
+    margin-bottom: 8px;
+}
+
+
+
+
+
 
 .section-button {
     display: block;
@@ -278,27 +279,43 @@ body {
 }
 
 .footer {
-    background-color: #2e2f42;
-    color: #f4f4fd;
+    padding: 100px 0;
+    background-color: #f8f8f8;
+    /* Adjust the background color as needed */
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .footer-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
-.footer-logo .logo-text {
-    color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px;
+    text-decoration: none;
+    /* Optional: to remove underline from link */
+    color: #333;
+    /* Adjust the text color as needed */
+    font-size: 24px;
+    /* Adjust the font size as needed */
 }
 
 .footer-paragraph {
+    max-width: 264px;
+    color: #666;
+    /* Adjust the text color as needed */
+    font-size: 16px;
+    /* Adjust the font size as needed */
     line-height: 1.5;
-    letter-spacing: 0.02em;
+}
+
+/* Optional: Adjust container styling if necessary */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .header {
