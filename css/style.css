@@ -192,8 +192,14 @@ body {
 }
 
 
+.section-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .container {
-    padding: 120px 0;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .section-title {
@@ -207,7 +213,7 @@ body {
     row-gap: 48px;
 }
 
-.list-item {
+.section-item {
     width: calc((100% - 48px) / 3);
 }
 
