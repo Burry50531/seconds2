@@ -293,7 +293,8 @@ body {
 }
 
 .menu-item {
-    padding-top: 24px;
+    padding: 24px 0;
+    padding: 24px 0 24px;
 }
 
 .address {
