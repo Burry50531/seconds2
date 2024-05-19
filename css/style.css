@@ -84,37 +84,37 @@ body {
 
 /* Начало CSS */
 
-.logo{
+.logo {
     font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-    }
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
 
-.logo-span{
+.logo-span {
     color: #2e2f42;
 }
 
-.link-style{
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #2e2f42;
-        }
-    
-        .link-style:hover {
-            color: #404bbf;
-        }
-    
-        .link-style:focus {
-            color: #404bbf;
+.link-style {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.address{
+.link-style:hover {
+    color: #404bbf;
+}
+
+.link-style:focus {
+    color: #404bbf;
+}
+
+.address {
     font-style: normal;
 }
 
@@ -137,9 +137,9 @@ body {
     color: #404bbf;
 }
 
-.section{
-        background-color: #2e2f42;
-    }
+.section {
+    background-color: #2e2f42;
+}
 
 .section-title {
     font-size: 56px;
@@ -153,9 +153,10 @@ body {
     background-color: #f4f4fd;
 }
 
-.section-li{
+.section-li {
     background-color: #FFFFFF
 }
+
 .section-titlee {
     font-weight: 500;
     font-size: 36px;
@@ -264,4 +265,45 @@ body {
 .footer-paragraph {
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.header {
+    min-height: 3px;
+    font-family: 'Arial', sans-serif;
+    text-transform: lowercase;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header .container {
+    min-height: 3px;
+    font-family: 'Arial', sans-serif;
+    text-transform: lowercase;
+}
+
+.header .container:first-child {
+    display: flex;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+nav {
+    min-height: 3px;
+    font-family: 'Arial', sans-serif;
+    text-transform: lowercase;
+    display: flex;
+    align-items: center;
+}
+
+.nav .logo {
+    min-height: 3px;
+    font-family: 'Arial', sans-serif;
+    text-transform: lowercase;
+    margin-right: 76px;
 }
