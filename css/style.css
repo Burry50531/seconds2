@@ -157,40 +157,45 @@ body {
     max-width: 496px;
 }
 
-.sectionnn {
-    background-color: #f4f4fd;
+.team-section {
+    padding: 120px 0;
 }
 
-.section-li {
-    background-color: #FFFFFF
-}
-
-.section-titlee {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 1.11;
+.section-heading {
+    margin-bottom: 72px;
     text-align: center;
-    text-transform: capitalize;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 
-.list-heading {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.team-item {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    overflow: hidden;
     text-align: center;
-    text-transform: capitalize;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 
-.list-paragraph {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.team-info {
+    padding: 32px 0;
 }
+
+.team-name {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.team-role {
+    text-align: center;
+}
+
+
+
+
+
+
 
 .sectiona-heading {
     font-size: 36px;
