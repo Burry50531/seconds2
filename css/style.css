@@ -292,7 +292,8 @@ body {
 
 .footer {
     padding: 100px 0;
-    background-color: #f8f8f8;
+    background-color: #2e2f42;
+    ;
     /* Adjust the background color as needed */
 }
 
@@ -367,4 +368,14 @@ body {
 .contact-list {
     display: flex;
     gap: 40px;
+}
+
+img {
+    display: block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
