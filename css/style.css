@@ -246,10 +246,10 @@ body {
     width: calc((100% - 48px) / 3);
     padding-left: 0;
     margin: 0;
-    width: 360px;
-    height: 420px;
     border: 1px solid var(--cornflower);
     background: var(--white);
+
+
 
 }
 
