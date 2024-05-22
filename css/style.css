@@ -365,15 +365,18 @@ body {
     display: inline-block;
     margin-bottom: 16px;
     text-decoration: none;
-    color: #404bbf;
+    color: #4D5AE5;
     font-size: 24px;
 }
 
 .footer-paragraph {
-    max-width: 264px;
-    color: #F4F4FD;
+    font-family: var(--font-family);
+    font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    max-width: 264px;
 }
 
 .logo-text {
@@ -383,7 +386,7 @@ body {
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: white
+    color: #F4F4FD;
 }
 
 
