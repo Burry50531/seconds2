@@ -152,13 +152,19 @@ body {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02em;
     color: #ffffff;
+    letter-spacing: 0.02em;
     max-width: 496px;
+}
+
+.section-titlee {
+    margin-bottom: 72px;
+    text-align: center;
 }
 
 .team-section {
     padding: 120px 0;
+    background-color: #F4F4FD;
 }
 
 .section-heading {
@@ -286,7 +292,7 @@ body {
 
 .footer {
     padding: 100px 0;
-    background-color: #2e2f42;
+    background: #2E2F42;
     ;
     /* Adjust the background color as needed */
 }
@@ -301,13 +307,13 @@ body {
     display: inline-block;
     margin-bottom: 16px;
     text-decoration: none;
-    color: #333;
+    color: #F4F4FD;
     font-size: 24px;
 }
 
 .footer-paragraph {
     max-width: 264px;
-    color: #666;
+    color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -315,7 +321,7 @@ body {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    display: flex;
+
 }
 
 .container {
@@ -340,7 +346,7 @@ body {
 
 .menu-item {
     padding: 24px 0;
-
+    display: flex;
 }
 
 .address {
@@ -362,7 +368,14 @@ img {
 }
 
 ul {
+
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
