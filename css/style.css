@@ -116,10 +116,14 @@ body {
 
 .address {
     font-style: normal;
+    margin-left: auto;
+    align-items: center;
 }
 
 .contact-info {
     font-style: normal;
+    margin-left: auto;
+    align-items: center;
 }
 
 .contact-link {
@@ -143,10 +147,6 @@ body {
     padding-bottom: 188px;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
 
 .section-title {
     font-size: 56px;
@@ -197,10 +197,6 @@ body {
     padding-bottom: 120px;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .section-title {
     margin-bottom: 72px;
@@ -258,20 +254,18 @@ body {
     padding: 120px 0;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
     border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .features-list {
@@ -307,29 +301,17 @@ body {
     display: inline-block;
     margin-bottom: 16px;
     text-decoration: none;
-    /* Optional: to remove underline from link */
     color: #333;
-    /* Adjust the text color as needed */
     font-size: 24px;
-    /* Adjust the font size as needed */
 }
 
 .footer-paragraph {
     max-width: 264px;
     color: #666;
-    /* Adjust the text color as needed */
     font-size: 16px;
-    /* Adjust the font size as needed */
     line-height: 1.5;
 }
 
-/* Optional: Adjust container styling if necessary */
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
 
 .header {
     border-bottom: 1px solid #e7e9fc;
@@ -339,12 +321,12 @@ body {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
 }
 
 .nav {
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 
 .logo-link {
@@ -358,16 +340,21 @@ body {
 
 .menu-item {
     padding: 24px 0;
+
 }
 
 .address {
     display: flex;
     align-items: center;
+
 }
 
 .contact-list {
     display: flex;
     gap: 40px;
+    margin-left: auto;
+    align-items: center;
+
 }
 
 img {
