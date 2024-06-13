@@ -375,7 +375,6 @@ p {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    margin-bottom: 8px;
 }
 
 .features-list {
@@ -384,11 +383,12 @@ p {
     list-style: none;
     padding: 0;
     margin: 0;
+    margin-bottom: 8px;
 }
 
 .feature-item {
     flex-basis: calc((100% - 72px) / 4);
-
+    margin-bottom: 8px;
 }
 
 .feature-title {
@@ -398,6 +398,7 @@ p {
     line-height: 120%;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    margin-bottom: 8px;
 }
 
 .feature-description {
