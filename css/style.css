@@ -83,7 +83,6 @@ body {
 }
 
 /* Начало CSS */
-
 h1,
 h2,
 h3,
@@ -228,7 +227,6 @@ p {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
-    margin-bottom: 72px;
 
 }
 
@@ -250,8 +248,6 @@ p {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
-    margin-bottom: 72px;
-
 }
 
 .team-list {
@@ -279,7 +275,6 @@ p {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
-    margin-bottom: 8px;
 }
 
 .team-role {
@@ -328,7 +323,6 @@ p {
     letter-spacing: 0.02em;
     color: var(--navy-blue);
     text-align: left;
-    margin-bottom: 8px;
 }
 
 .app-category {
@@ -387,12 +381,11 @@ p {
     list-style: none;
     padding: 0;
     margin: 0;
-    margin-bottom: 8px;
 }
 
 .feature-item {
     flex-basis: calc((100% - 72px) / 4);
-    margin-bottom: 8px;
+
 }
 
 .feature-title {
@@ -402,7 +395,6 @@ p {
     line-height: 120%;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    margin-bottom: 8px;
 }
 
 .feature-description {
@@ -412,7 +404,6 @@ p {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: var(--slate);
-    margin-bottom: 8px;
 }
 
 .footer {
@@ -429,12 +420,10 @@ p {
 
 .footer-logo {
     display: inline-block;
-    /* Робить посилання блочним */
     margin-bottom: 16px;
-    /* Відступ знизу */
     text-decoration: none;
-    /* Відсутність підкреслення за замовчуванням */
-    color: inherit;
+    color: #4D5AE5;
+    font-size: 24px;
 
 }
 
@@ -692,4 +681,63 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+}
+
+/* Homework 5 */
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 408px;
+    min-height: 584px;
+    background: #fcfcfc;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-button:hover,
+.modal-button:focus {
+    background-color: #404bbf;
+    border: none;
+}
+
+.modal-button-svg {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-button-svg:hover,
+.modal-button-svg:focus {
+    fill: #ffffff;
 }
