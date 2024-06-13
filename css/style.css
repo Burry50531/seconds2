@@ -685,6 +685,10 @@ a {
 
 /* Homework 5 */
 
+.footer-container {
+    margin-top: 32px;
+}
+
 .footer-subscribe {
     margin-bottom: 16px;
     font-weight: 500;
