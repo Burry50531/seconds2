@@ -383,6 +383,7 @@ p {
     list-style: none;
     padding: 0;
     margin: 0;
+    margin-bottom: 8px;
 }
 
 .feature-item {
@@ -397,7 +398,6 @@ p {
     line-height: 120%;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    margin-bottom: 8px;
 }
 
 .feature-description {
