@@ -417,6 +417,7 @@ body {
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px;
+    margin: 0;
 }
 
 .logo-text {
@@ -617,6 +618,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 16px;
 }
 
 .social-listt {
