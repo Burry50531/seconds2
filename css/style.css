@@ -96,7 +96,13 @@ body {
 }
 
 .logo-span {
-    color: #2e2f42;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
 
 }
 
@@ -220,6 +226,8 @@ body {
     background-color: #F4F4FD;
     margin-left: auto;
     margin-right: auto;
+    width: 1440px;
+    height: 780px;
     align-items: center;
 }
 
@@ -336,8 +344,6 @@ body {
 
 .features-section {
     padding: 120px 0;
-    width: 1128px;
-    height: 224px;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
